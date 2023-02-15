@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Space+Mono:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.b-color {
+  height: 100vh;
+  background: #C5E4E7;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-bottom: 41px;
+  height: 53px;
+  width: 86px;
+}
+
+.Icon {
+  position: absolute;
+  margin-top: 21px;
+  margin-left: 15px;
+}
+
+.tipcalc {
+  width: 375px;
+  height: 789px;
+  background: #FFFFFF;
+  box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+  border-radius: 25px 25px 0px 0px;
+  padding: 32px;
+}
+
+h1 {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5E7A7D;
+}
+
+.InputFill {
+  margin-top: 6px;
+  margin-bottom: 32px;
+  height: 48px;
+  width: 311px;
+  background: #F3F9FA;
+  border-radius: 5px;
+  border: none;
+  padding-right: 17px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: right;
+  color: #00474B;
+}
+
+.SelectTip {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+}
+
+.TipButton {
+  background: #00474B;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 48px;
+  width: 146px;
+  cursor: pointer;
+}
+
+.TipButtonActive {
+  background: #26C2AE;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 48px;
+  width: 146px;
+  cursor: pointer;
+}
+
+.CustomTip {
+  padding-right: 17px;
+  height: 48px;
+  width: 147px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: right;
+  color: #547878;
+  background: #F3F9FA;
+  border-radius: 5px;
+  border: none;
+  
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.d-flex-results {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ResultsBack {
+  height: 257px;
+  width: 327px;
+  padding: 24px;
+  background: #00474B;
+  border-radius: 15px;
+  margin-left: -8px;
+}
+
+.ResetH1 {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.ResetP {
+  margin-bottom: 25px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7F9D9F;
+}
+
+.Results {
+  margin-bottom: 33px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: right;
+  letter-spacing: -0.666667px;
+  color: #26C2AE;
+}
+
+.ResetButton {
+  margin-top: 10px;
+  height: 48px;
+  width: 281px;
+  background: #26C2AE;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #00474B;
+  cursor: pointer;
+}
+
+.zero {
+  margin-top: -24px;
+  margin-bottom: 24px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #E17457;
+}
+
+@media only screen and (min-width: 1000px){
+  .tipcalc {
+    margin-left: 16px;
+    width: 920px;
+    height: 481px;
+    display: flex;
+    gap: 48px;
+  }
+
+  .InputFill {
+    height: 48px;
+    width: 379px;
+  }
+
+  .SelectTip {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 14px;
+  }
+
+  .TipButton {
+    height: 48px;
+    width: 117px;
+  }
+
+  .TipButtonActive {
+    height: 48px;
+    width: 117px;
+  }
+
+  .CustomTip {
+    height: 48px;
+    width: 118px;
+  }
+
+  .ResultsBack {
+    padding: 56px 40px;
+    height: 417px;
+    width: 413px;
+  }
+  .ResetButton {
+    height: 48px;
+    width: 333px;
+    margin-top: 60px;
+  }
+
+  .Results {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+  }
+}
